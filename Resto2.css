@@ -413,3 +413,70 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Responsive design pour les petits écrans */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar img {
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    header .content {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #About .containt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #About .containt img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .offers-items {
+        flex-direction: column;
+    }
+
+    #menu .menu-items {
+        flex-direction: column;
+    }
+
+    #menu .menu-items .item {
+        margin: 20px 0;
+    }
+
+    #foodtime .items {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #gallery .image-gallery img {
+        width: 90%;
+        height: auto;
+    }
+
+    #contact .type-contact {
+        flex-direction: column;
+    }
+
+    #contact .type-contact .contact-info,
+    form {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
